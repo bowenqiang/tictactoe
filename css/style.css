@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 550px;
+    margin: 40px auto;
+}
+
+.tic {
+    width: 550px;
+    height550px;
+    position: relative;
+}
+
+#board {
+    height: 550px;
+    width: 550px;
+}
+
+.tac img {
+    width: 160px;
+    height: 160px;
+    z-index: 100px;
+    padding: 5px;
+}
+
+.tac {
+    display: inline;
+}
+
+#board {
+    display: block;
+}
+
+.row1 {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.row2 {
+    position: absolute;
+    left: 18px;
+    top: 198px;
+}
+
+.row3 {
+    position: absolute;
+    left: 18px;
+    top: 378px;
+}
+
+.img2 {
+    position: relative;
+    left: 20px;
+}
+
+.img3 {
+    position: relative;
+    left: 30px;
+}
